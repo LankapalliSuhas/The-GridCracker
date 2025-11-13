@@ -44,7 +44,7 @@ if "solved_puzzle" not in st.session_state:
     st.session_state.solved_puzzle = None
 
 
-tab_solve, tab_generate, tab_data = st.tabs(["Solve", "Generate", "Load & Save"])
+tab_solve, tab_generate, tab_data = st.tabs(["💡Solve", "⚙️Generate", "💾Load & Save"])
 
 # ---------------- SOLVE ----------------
 with tab_solve:
