@@ -7,7 +7,6 @@
 - Generator: build full solution → remove cells safely (unique solution).
 - Tiny AI helper: trained in Colab (optional) for difficulty estimation/variation.
 - Streamlit UI: generate, solve, load, save.
-- Keep code minimal, modular, and error-free.
 
 ---
 
