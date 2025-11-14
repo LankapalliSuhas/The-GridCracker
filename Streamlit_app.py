@@ -8,6 +8,7 @@ from file_io import FileHandler
 
 st.set_page_config(page_title="GridCracker", page_icon="🧩", layout="wide")
 
+#User input to define a puzzle
 def parse_text_grid(text):
     lines = [ln.strip() for ln in text.strip().splitlines() if ln.strip()]
     if len(lines) != 9:
