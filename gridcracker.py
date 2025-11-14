@@ -17,7 +17,7 @@ except:
 # -------------------------------------------------------------------
 
 class Cell:
-    def __init__(self, int row , int col, int value = 0):
+    def __init__(self,row: int , col: int, value: int = 0):
         self.row = row
         self.col = col
         self.value = value
